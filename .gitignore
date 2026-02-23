@@ -1,0 +1,39 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+.vscode/
+build/
+.pub-cache/
+.pub/
+
+# Android generated
+android/.gradle/
+android/app/build/
+android/local.properties
+android/key.properties
+*.keystore
+!debug.keystore
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+.dart_tool/
+
+# macOS
+macos/Pods/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Release APKs — use GitHub Releases instead
+app-release.apk
+*.apk
+
+# Misc
+*.log

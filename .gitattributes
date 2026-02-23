@@ -1,0 +1,16 @@
+# NO LFS — sab normal git mein
+* text=auto
+
+# Binary files — no LFS, no line ending changes
+*.so binary
+*.apk binary
+*.jar binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.webp binary
+*.keystore binary
+
+# Explicitly NEVER track these as LFS
+android/app/src/main/jniLibs/**/*.so -filter=lfs -merge=lfs -text -diff
+android/app/src/main/assets/proot-arm64 -filter=lfs -merge=lfs -text -diff
